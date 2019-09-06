@@ -91,6 +91,9 @@ header nav {
     padding: 20px;
 }
 
+/* top content */
+
+
 header nav a {
     font-size: 14px;
     text-decoration: none;
@@ -98,110 +101,41 @@ header nav a {
 
 }
 
-.jumbo {
-   display: flex;
-   justify-content: center;
-   padding: 20px;
-   margin-left: 10px;
-   
-}
-
 .top-content {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-evenly;
-    margin-bottom: 20px;
     border-bottom: 1px dashed black;
-}
-
-.top-content .text-container {
-    width: 48%;
-    padding: 0 1%;
-    padding-bottom: 20px;  
 }
 
 .middle-content {
-    margin-bottom: 20px;
-    border-bottom: 1px dashed black;
-}
-
-.middle-content h2 {
-    padding: 0 2%;
-    margin-bottom: 0;
-}
-
-.middle-content .boxes {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-evenly;
+    margin-top: 25px;
+    border-bottom: 1px dashed black;
+
 }
 
-.middle-content .boxes .box {
-    width: 12.5%;
-    height: 100px;
-    background: black;
-    margin: 20px 2.5%;
-    color: white;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-}
-/* box colors  */
-
-.middle-content .boxes :nth-child(1) {
-    background-color: teal;
+.middle-content div {
+    width: 50%;
+    margin-bottom: 10px;
+    margin-top: 25px;
+    padding: 10px;
+    
 }
 
-.middle-content .boxes :nth-child(2) {
-    background-color: gold;
+.middle-content button {
+    margin-top: 20px;
+    background-color: white;
+    border-radius: 4px;
+    border: 1px black solid;
+    width: 150px;
+    height: 25px;
+    
 }
-.middle-content .boxes :nth-child(3) {
-    background-color: cadetblue;
-}
-
-.middle-content .boxes :nth-child(4) {
-    background-color: coral;
-}
-
-.middle-content .boxes :nth-child(5) {
-    background-color: crimson;
-}
-
-.middle-content .boxes :nth-child(6) {
-    background-color: forestgreen;
-}
-
-.middle-content .boxes :nth-child(7) {
-    background-color: darkorchid;
-}
-
-.middle-content .boxes :nth-child(8) {
-    background-color: hotpink;
-}
-
-.middle-content .boxes :nth-child(9) {
-    background-color: indigo;
-}
-
-.middle-content .boxes :nth-child(10) {
-    background-color: dodgerblue;
-}
-
-/* bottom content  */
-
 .bottom-content {
-    display: flex;
-    margin: 0 2% 20px;
-    justify-content: space-around;
+    margin-top: 20px;
+    margin-bottom: 20px;
 }
-
-.bottom-content .text-container {
-    padding-right: 4%;
-}
-
-.bottom-content .text-container:last-child {
-    padding-right: 0;
-}
+/* footer */
 
 footer {
     width: 100%;
