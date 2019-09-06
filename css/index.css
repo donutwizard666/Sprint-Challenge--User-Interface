@@ -75,33 +75,34 @@ header {
     display: flex;
     align-items: center;
     flex-direction: row-reverse;
-    justify-content: flex-end;
+    justify-content: flex-start;
 }
 
 header nav {
     display: flex;
     align-items: center;
     justify-content: space-around;
-    width: 70%;
+    width: 90%;
     margin-top: 30px;
     margin-bottom: 30px; 
 }
 
-header nav .logo {
-    margin-left: 20px;
+.logo {
+    padding: 20px;
 }
 
 header nav a {
     font-size: 14px;
     text-decoration: none;
     color: gray;
+
 }
 
 .jumbo {
    display: flex;
    justify-content: center;
    padding: 20px;
-   margin-left: 30px;
+   margin-left: 10px;
    
 }
 
@@ -145,6 +146,7 @@ header nav a {
     align-items: center;
     justify-content: center;
 }
+/* box colors  */
 
 .middle-content .boxes :nth-child(1) {
     background-color: teal;
@@ -169,8 +171,23 @@ header nav a {
     background-color: forestgreen;
 }
 
+.middle-content .boxes :nth-child(7) {
+    background-color: darkorchid;
+}
 
+.middle-content .boxes :nth-child(8) {
+    background-color: hotpink;
+}
 
+.middle-content .boxes :nth-child(9) {
+    background-color: indigo;
+}
+
+.middle-content .boxes :nth-child(10) {
+    background-color: dodgerblue;
+}
+
+/* bottom content  */
 
 .bottom-content {
     display: flex;
